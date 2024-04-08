@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        background-color: purple;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+        margin-top: 17%;
+        width: 50%;
+        border-radius: 2rem;
+        background-color: rgba(29, 29, 185, 0.338);
+    }
+
+    /* Style the input field */
+    input[type="text"] {
+        background-color: #e6ccff;
+        border: none;
+        outline: none;
+        background: transparent;
+        background-color:  rgba(29, 29, 185, 0.338);
+        padding: 10px;
+        width: 200px;
+    }
+
+    .text2{
+        width: 80px;
+        position: absolute;
+        color: rgb(2, 2, 52);
+        text-transform: uppercase;
+    }
+    
+    /* Style the boxes */
+    .showresult{
+        width: 80%;
+        padding-left: 8%;
+        padding-top: 7%;
+        object-fit: cover;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+        @media (max-width:500px) {
+            input[type="text"] {
+        background-color: #e6ccff;
+        border: none;
+        outline: none;
+        position: absolute;
+        top: 45%;
+        background: transparent;
+        background-color:  rgba(29, 29, 185, 0.338);
+        padding: 14px;
+        width: 45%;
+    }
+
+    .submit{
+        background-color: #e6ccff; /* Light purple background */
+        border: none;
+        padding: 10px 20px;
+        position: absolute;
+        top: 51%;
+        left: 47%;
+        outline: none;
+        background: transparent;
+        background-color:  rgba(29, 29, 185, 0.338);
+        margin-left: 10px;
+    }
+    .showresult{
+        width: 100%;
+        padding-top: 75%;
+        object-fit: cover;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+
+    .showresult img{
+        width: 100%;
+        height: 245px;
+        object-fit: cover;
+        border-radius: 5px;
+
+
+    }
+    
+     
+}
+    .showresult img{
+        width: 100%;
+        height: 245px;
+        object-fit: cover;
+        border-radius: 5px;
+
+
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+        margin-top: 17%;
+        width: 50%;
+        border-radius: 2rem;
+       
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Style the button */
+   .submit{
+        background-color: #e6ccff; /* Light purple background */
+        border: none;
+        padding: 10px 20px;
+        outline: none;
+        background: transparent;
+        background-color:  rgba(29, 29, 185, 0.338);
+        margin-left: 10px;
+    }
+   .submit2{
+        background-color: #e6ccff; /* Light purple background */
+        border: none;
+        padding: 10px 20px;
+        outline: none;
+        background: transparent;
+        background-color:  rgba(29, 29, 185, 0.338);
+        margin-left: 10px;
+    }
+    .text2{
+        position: absolute;
+        width: 100%;
+        top: 25%;
+        left: 7%;
+        color: rgb(2, 2, 52);
+        text-transform: uppercase;
+    }
+    
+     
+
+</style>
+</head>
+<body>
+<div class="main">
+    <!-- <h1 class="text2">if you want to see more images just click again sumbit button</h1> -->
+    <div class="container">
+<form action="">
+    <input class="text" type="text" placeholder="Enter text">
+    </form>
+    <button class="submit">submit</button>
+    <button class="submit2">ShowMore</button>
+</div>
+</div>
+<div class="parant">
+<div class="showresult">
+    
+</div>
+ 
+   <script src="javascript.js"></script>
+</div>
+</div>
+</div>
+</body>
+</html>
